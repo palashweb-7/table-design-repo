@@ -20,13 +20,22 @@
         table{
             border-collapse: collapse;
         }
+        th{
+            border: 1px solid black;
+            padding: 5px;
+        }
     </style>
 </head>
 <body>
     <h1>html table</h1>
     <table>
         <thead>
-
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Salary</th>
+                <th>Company Name</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -55,7 +64,7 @@
             </tr>
         </tbody>
         <tfoot>
-
+            <td style="text-align: center;" colspan="4">Total Employe</td>
         </tfoot>
       
     </table>
